@@ -377,5 +377,12 @@ independently using the toolbar buttons.
 
 ## License
 
-This software is copyright © Philippe Fournier-Viger and contributors and is distributed under the
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+This software is copyright © Philippe Fournier-Viger and contributors.
+
+The software is distributed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+
+**Related links:**
+
+- SPMF Library source code: [https://github.com/philfv9/spmf](https://github.com/philfv9/spmf)
+- SPMF-Server: [https://github.com/philfv9/spmf-server](https://github.com/philfv9/spmf-server)
+- Official SPMF website: [http://philippe-fournier-viger.com/spmf/](http://philippe-fournier-viger.com/spmf/)
