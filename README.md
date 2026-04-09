@@ -3,7 +3,7 @@
 
 #spmf-server Python Client
 
-A **command-line client** and **graphical desktop client** for
+A **command-line client (CLI)** and **graphical desktop client (GUI) ** for
 [SPMF-Server](https://github.com/philfv9/spmf-server) — the REST API wrapper
 around the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
 
