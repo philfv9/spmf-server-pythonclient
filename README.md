@@ -22,9 +22,6 @@ around the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining lib
   - [Launching the GUI](#launching-the-gui)
   - [GUI Features](#gui-features)
   - [GUI Tabs](#gui-tabs)
-- [Batch Launchers](#batch-launchers)
-  - [RUNCLIENT.BAT](#runclientbat)
-  - [RUNCLIENTGUI.BAT](#runclientguibat)
 - [Algorithm Parameters](#algorithm-parameters)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
@@ -91,8 +88,6 @@ pip install requests
 |---|---|
 | `spmf-client.py` | Command-line client for every SPMF-Server API endpoint |
 | `spmf-gui.py` | Graphical desktop client built with Python + tkinter |
-| `RUNCLIENT.BAT` | Windows batch script demonstrating 13 CLI examples |
-| `RUNCLIENTGUI.BAT` | Windows batch launcher for the GUI with dependency checks |
 
 ---
 
@@ -329,79 +324,6 @@ Side-by-side view of the two outputs for any completed job:
 
 Both panels support horizontal scrolling. Either panel can be saved to a file
 independently using the toolbar buttons.
-
----
-
-## Batch Launchers
-
-### RUNCLIENT.BAT
-
-Runs 13 CLI demonstration examples in sequence.
-The output of each `spmf-client.py` call — including stderr — is captured
-and displayed inside a bordered box so it is easy to read.
-
-```
-RUNCLIENT.BAT
-```
-
-| # | Example |
-|---|---|
-| 1 | Server health check |
-| 2 | Server info / configuration |
-| 3 | List all algorithms |
-| 4 | Describe Apriori |
-| 5 | List all jobs |
-| 6 | Run Apriori (mandatory minsup param only) |
-| 7 | Run Apriori with base64 input encoding |
-| 8 | Run Apriori with `--no-cleanup` |
-| 9 | Health check with `--raw` JSON output |
-| 10 | Save algorithm list to file with `--out` |
-| 11 | Run FPGrowth_itemsets |
-| 12 | Describe FPGrowth_itemsets |
-| 13 | Run Apriori with optional integer max-length parameter |
-
-Edit the top of the file to point at a different server:
-
-```batch
-set HOST=localhost
-set PORT=8585
-```
-
----
-
-### RUNCLIENTGUI.BAT
-
-Checks all dependencies before launching the GUI, so you get a clear
-error message instead of a silent crash.
-
-```
-RUNCLIENTGUI.BAT
-```
-
-Check sequence:
-
-```
-[OK] Python found: Python 3.12.0
-[OK] requests is already installed.
-[OK] tkinter is available.
-[OK] spmf-gui.py found.
-
-========================================
- Launching SPMF GUI...
-========================================
-[OK] GUI launched successfully.
-```
-
-What it does at each step:
-
-| Step | Action on failure |
-|---|---|
-| Check Python on PATH | Prints install URL and exits |
-| Check pip available | Prints fix command and exits |
-| Check / install `requests` | Runs `pip install requests` automatically |
-| Check `tkinter` available | Prints reinstall instructions and exits |
-| Check `spmf-gui.py` exists | Prints expected path and exits |
-| Launch with `pythonw.exe` | Falls back to `python.exe` if `pythonw` not found |
 
 ---
 
