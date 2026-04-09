@@ -49,9 +49,16 @@ Both clients handle the full job lifecycle automatically:
 submit → poll → fetch console → fetch result → cleanup.
 
 > **Server not included.**
-> You need a running instance of
-> [SPMF-Server](https://github.com/philfv9/spmf-server)
-> before using either client.
+> You need a running instance of the [SPMF-Server](https://github.com/philfv9/spmf-server)  before using either client.
+
+
+**Related projects:**
+
+| Project | Description |
+|---|---|
+| [SPMF Library](https://github.com/philfv9/spmf) | The core SPMF data-mining library (Java) |
+| [SPMF-Server](https://github.com/philfv9/spmf-server) | REST-Server for calling the SPMF library |
+| [SPMF Website](http://philippe-fournier-viger.com/spmf/) | Official documentation, algorithm list, and downloads |
 
 ---
 
