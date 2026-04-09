@@ -1,4 +1,8 @@
-
+[![License](https://img.shields.io/github/license/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/blob/main/LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/releases/latest)
+[![Stars](https://img.shields.io/github/stars/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/stargazers)
+[![Forks](https://img.shields.io/github/forks/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/network/members)
+[![Downloads](https://img.shields.io/github/downloads/philfv9/ spmf-server-pythonclient/total.svg)](https://github.com/philfv9/ spmf-server-pythonclient/releases)
 # SPMF-Server Python Client
 
 A **command-line client** and **graphical desktop client** for
