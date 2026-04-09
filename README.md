@@ -1,9 +1,10 @@
-[![License](https://img.shields.io/github/license/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/blob/main/LICENSE)
-[![Latest Release](https://img.shields.io/github/v/release/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/releases/latest)
-[![Stars](https://img.shields.io/github/stars/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/stargazers)
-[![Forks](https://img.shields.io/github/forks/philfv9/ spmf-server-pythonclient.svg)](https://github.com/philfv9/ spmf-server-pythonclient/network/members)
-[![Downloads](https://img.shields.io/github/downloads/philfv9/ spmf-server-pythonclient/total.svg)](https://github.com/philfv9/ spmf-server-pythonclient/releases)
-# SPMF-Server Python Client
+[![License](https://img.shields.io/github/license/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/blob/main/LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/releases/latest)
+[![Stars](https://img.shields.io/github/stars/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/stargazers)
+[![Forks](https://img.shields.io/github/forks/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/network/members)
+[![Downloads](https://img.shields.io/github/downloads/philfv9/spmf-server-pythonclient/total.svg)](https://github.com/philfv9/spmf-server-pythonclient/releases)
+
+#spmf-server Python Client
 
 A **command-line client** and **graphical desktop client** for
 [SPMF-Server](https://github.com/philfv9/spmf-server) — the REST API wrapper
@@ -40,7 +41,7 @@ This repository provides two Python clients for
 ```
 +------------------+        HTTP / JSON        +------------------+
 |  spmf-client.py  | ----------------------->  |                  |
-|  (Python CLI)    | <-----------------------  |   SPMF-Server    |
+|  (Python CLI)    | <-----------------------  |  spmf-server    |
 +------------------+    results, job status    |   (Java / HTTP)  |
                                                |                  |
 +------------------+        HTTP / JSON        |                  |
@@ -87,7 +88,7 @@ folder containing the scripts.
 
 ```bash
 git clone https://github.com/philfv9/spmf-server-pythonclient.git
-cd spmf-server-pythonclient
+cdspmf-server-pythonclient
 pip install requests
 ```
 
@@ -97,14 +98,14 @@ pip install requests
 
 | File | Description |
 |---|---|
-| `spmf-client.py` | Command-line client for every SPMF-Server API endpoint |
+| `spmf-client.py` | Command-line client for everyspmf-server API endpoint |
 | `spmf-gui.py` | Graphical desktop client built with Python + tkinter |
 
 ---
 
 ## CLI Client — spmf-client.py
 
-A single-file CLI that covers every SPMF-Server endpoint.
+A single-file CLI that covers everyspmf-server endpoint.
 
 ```
 python spmf-client.py [global options] <subcommand> [subcommand arguments]
@@ -366,7 +367,7 @@ independently using the toolbar buttons.
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| `ERROR: Cannot connect to SPMF-Server` | Server not running | Start SPMF-Server first |
+| `ERROR: Cannot connect tospmf-server` | Server not running | Startspmf-server first |
 | `ERROR [400]` on `run` | Wrong parameter type or count | Run `describe <name>` to check types |
 | `ERROR [404]` on algorithm | Misspelled algorithm name | Run `list` to find the exact name |
 | `ERROR [403]` on all requests | API key required or wrong | Pass `--apikey <value>` matching the server config |
@@ -388,5 +389,5 @@ The software is distributed under the [GNU General Public License v3.0](https://
 **Related links:**
 
 - SPMF Library source code: [https://github.com/philfv9/spmf](https://github.com/philfv9/spmf)
-- SPMF-Server: [https://github.com/philfv9/spmf-server](https://github.com/philfv9/spmf-server)
+-spmf-server: [https://github.com/philfv9/spmf-server](https://github.com/philfv9/spmf-server)
 - Official SPMF website: [http://philippe-fournier-viger.com/spmf/](http://philippe-fournier-viger.com/spmf/)
