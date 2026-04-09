@@ -2,7 +2,7 @@
 # SPMF-Server Python Client
 
 A **command-line client** and **graphical desktop client** for
-[SPMF-Server](https://github.com/your-org/spmf-server) — the REST API wrapper
+[SPMF-Server](https://github.com/philfv9/spmf-server) — the REST API wrapper
 around the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
 
 ---
@@ -31,7 +31,7 @@ around the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining lib
 ## Overview
 
 This repository provides two Python clients for
-[SPMF-Server](https://github.com/your-org/spmf-server):
+[SPMF-Server](https://github.com/philfv9/spmf-server):
 
 ```
 +------------------+        HTTP / JSON        +------------------+
@@ -50,7 +50,7 @@ submit → poll → fetch console → fetch result → cleanup.
 
 > **Server not included.**
 > You need a running instance of
-> [SPMF-Server](https://github.com/your-org/spmf-server)
+> [SPMF-Server](https://github.com/philfv9/spmf-server)
 > before using either client.
 
 ---
@@ -75,7 +75,7 @@ No other dependencies. Clone or download this repository and run from the
 folder containing the scripts.
 
 ```bash
-git clone https://github.com/your-org/spmf-server-pythonclient.git
+git clone https://github.com/philfv9/spmf-server-pythonclient.git
 cd spmf-server-pythonclient
 pip install requests
 ```
