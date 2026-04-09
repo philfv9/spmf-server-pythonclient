@@ -448,5 +448,5 @@ What it does at each step:
 
 ## License
 
-SPMF and SPMF-server and SPMF-server-pythonclient are copyright © Philippe Fournier-Viger and contributors and are distributed under the
+This software is copyright © Philippe Fournier-Viger and contributors and is distributed under the
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
