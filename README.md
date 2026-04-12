@@ -41,8 +41,7 @@ This repository provides two Python clients for
 Both clients handle the full job lifecycle automatically:
 submit → poll → fetch console → fetch result → cleanup.
 
-> **Server not included.**
-> You need a running instance of the [SPMF-Server](https://github.com/philfv9/spmf-server)  before using either client.
+ To try these clients, you will first need to download and install the SPMF-Server, which can be obtained at: [[SPMF-Server](https://github.com/philfv9/spmf-server)](https://github.com/philfv9/spmf-server)  
 
 
 **Related projects:**
