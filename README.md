@@ -35,17 +35,9 @@ around the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining lib
 This repository provides two Python clients for
 [SPMF-Server](https://github.com/philfv9/spmf-server):
 
-```
-+------------------+        HTTP / JSON        +------------------+
-|  spmf-client.py  | ----------------------->  |                  |
-|  (Python CLI)    | <-----------------------  |  spmf-server    |
-+------------------+    results, job status    |   (Java / HTTP)  |
-                                               |                  |
-+------------------+        HTTP / JSON        |                  |
-|  spmf-gui.py     | ----------------------->  |                  |
-|  (Python GUI)    | <-----------------------  +------------------+
-+------------------+    results, job status
-```
+<div align="center">
+  <img src="/images/pythonclient.png" alt="SPMF server" width="600">
+</div>
 
 Both clients handle the full job lifecycle automatically:
 submit → poll → fetch console → fetch result → cleanup.
