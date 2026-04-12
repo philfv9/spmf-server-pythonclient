@@ -1,11 +1,10 @@
 [![License](https://img.shields.io/github/license/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/stargazers)
 
-## Python Clients for the SPMF Server
+# Python Clients for the SPMF Server
 
-A **command-line client (CLI)** and **graphical desktop client (GUI) ** for
-[SPMF-Server](https://github.com/philfv9/spmf-server) — the REST API wrapper
-around the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
+This repository provides a **command-line client (CLI)** and **graphical desktop client (GUI) ** written in Python for sending pattern mining and data mining jobs to the
+[SPMF-Server](https://github.com/philfv9/spmf-server), which provides a REST API wrapper for the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
 
 ---
 
