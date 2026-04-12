@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/github/license/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/stargazers)
 
-**Python Clients for the SPMF Server**
+## Python Clients for the SPMF Server
 
 A **command-line client (CLI)** and **graphical desktop client (GUI) ** for
 [SPMF-Server](https://github.com/philfv9/spmf-server) — the REST API wrapper
