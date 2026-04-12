@@ -3,8 +3,8 @@
 
 # Python Clients for the SPMF Server
 
-This repository provides a **command-line client (CLI)** and **graphical desktop client (GUI) ** written in Python for sending pattern mining and data mining jobs to the
-[SPMF-Server](https://github.com/philfv9/spmf-server), which provides a REST API wrapper for the [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
+This repository provides a **command-line client (CLI)** and **graphical desktop client (GUI)** written in Python for sending pattern mining and data mining jobs to the
+[SPMF-Server](https://github.com/philfv9/spmf-server), which provides a REST API wrapper for the popular [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
 
 ---
 
