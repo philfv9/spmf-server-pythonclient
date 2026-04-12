@@ -42,19 +42,9 @@ Both clients handle the full job lifecycle automatically:
 submit → poll → fetch console → fetch result → cleanup.
 
  To try these clients, you will first need to download and install the SPMF-Server, which can be obtained at: [[SPMF-Server](https://github.com/philfv9/spmf-server)](https://github.com/philfv9/spmf-server)  
-
-
-**Related projects:**
-
-| Project | Description |
-|---|---|
-| [SPMF Library](https://github.com/philfv9/spmf) | The core SPMF data-mining library (Java) |
-| [SPMF-Server](https://github.com/philfv9/spmf-server) | REST-Server for calling the SPMF library |
-| [SPMF Website](http://philippe-fournier-viger.com/spmf/) | Official documentation, algorithm list, and downloads |
-
 ---
 
-## Requirements
+## Requirements for the ptyhon clients
 
 - Python 3.8 or later
 - `requests` library
@@ -367,11 +357,11 @@ independently using the toolbar buttons.
 
 ---
 
-## License
+## License and copyright
 
-This software is copyright © Philippe Fournier-Viger and contributors.
+This software and this webpage is copyright © Philippe Fournier-Viger and contributors.
 
-The software is distributed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+The software is distributed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). 
 
 **Related links:**
 
