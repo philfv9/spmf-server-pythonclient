@@ -6,7 +6,7 @@
 
 # The CLI and GUI Python Clients for the SPMF Server
 
-This repository provides a **command-line client (CLI)** and **graphical desktop client (GUI)** written in Python for sending pattern mining and data mining jobs to the
+This repository provides a **command-line client (CLI)** (`spmf-client.py`) and **graphical desktop client (GUI)** (`spmf-gui.py` written in Python for sending pattern mining and data mining jobs to the
 [SPMF-Server](https://github.com/philfv9/spmf-server), which provides a REST API wrapper for the popular [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
 
 ---
@@ -14,9 +14,7 @@ This repository provides a **command-line client (CLI)** and **graphical desktop
 ## Table of Contents
 
 - [Overview](#overview)
-- [Requirements](#requirements)
 - [Installation](#installation)
-- [Files](#files)
 - [CLI Client — spmf-client.py](#cli-client--spmf-clientpy)
   - [Global Options](#global-options)
   - [Commands](#commands)
@@ -46,15 +44,11 @@ submit → poll → fetch console → fetch result → cleanup.
 
 To try these clients, you will first need to download and install the [SPMF-Server](https://github.com/philfv9/spmf-server).
 
----
-
-## Requirements for the ptyhon clients
+The clients depends on: 
 
 - Python 3.8 or later
 - `requests` library
-- `tkinter` — required for the GUI only
-  (included with the standard Python installer from
-  [python.org](https://www.python.org/downloads/))
+- `tkinter` — for the GUI client only (included with the standard Python installer)
 
 ---
 
@@ -64,7 +58,7 @@ To try these clients, you will first need to download and install the [SPMF-Serv
 pip install requests
 ```
 
-No other dependencies. Clone or download this repository and run from the
+Clone or download this repository and run from the
 folder containing the scripts.
 
 ```bash
@@ -72,15 +66,6 @@ git clone https://github.com/philfv9/spmf-server-pythonclient.git
 cdspmf-server-pythonclient
 pip install requests
 ```
-
----
-
-## Files
-
-| File | Description |
-|---|---|
-| `spmf-client.py` | Command-line client for every spmf-server API endpoint |
-| `spmf-gui.py` | Graphical desktop client built with Python + tkinter |
 
 ---
 
