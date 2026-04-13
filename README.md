@@ -222,22 +222,37 @@ The `run` command manages the full job lifecycle end-to-end:
 ## GUI Client — spmf-gui.py
 
 A modern dark-themed graphical desktop application providing the same
-capabilities as the CLI — without the command line.
+capabilities as the CLI — without the command line. The interface is organized around five views:
 
-```
-+---------------------------------------------------------------+
-|  SPMF Server Client                                  v1.0.0   |
-|  Host: [localhost]  Port: [8585]  API Key: [      ] [Connect] |
-+------------------+--------------------------------------------+
-| Dashboard        |                                            |
-| Algorithms       |   [ content area ]                         |
-| Run Job          |                                            |
-| Jobs             |                                            |
-| Result           |                                            |
-+------------------+--------------------------------------------+
-| Connected to localhost:8585  |  SPMF 1.0.0  |  231 algorithms |
-+---------------------------------------------------------------+
-```
+The **Dashboard** provides an overview of the server’s current status, allowing users to monitor active jobs in real time and access system logs for troubleshooting and transparency.
+
+<div align="center">
+  <img src="/images/dashboard.png" alt="Dashboard view" width="800">
+</div>
+
+The **Algorithms** view enables users to explore the full list of available algorithms. It includes functionality for searching and filtering, as well as viewing detailed information about each algorithm’s parameters.
+
+<div align="center">
+  <img src="/images/algorithms.png" alt="Algorithms view" width="800">
+</div>
+
+The **Run Job** interface guides users through the process of executing a task. Users can select an algorithm, upload a dataset, configure the required parameters, and submit the job for execution.
+
+<div align="center">
+  <img src="/images/runjob.png" alt="Run job view" width="800">
+</div>
+
+The **Jobs** view displays a live list of all submitted jobs. It allows users to track the status of each job and delete jobs when necessary.
+
+<div align="center">
+  <img src="/images/jobs.png" alt="Jobs view" width="800">
+</div>
+
+Finally, the **Settings** allows to view the results of a completed job.
+
+<div align="center">
+  <img src="/images/results.png" alt="Result view" width="800">
+</div>
 
 ### Launching the GUI
 
