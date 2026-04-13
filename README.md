@@ -4,10 +4,11 @@
 [![Last Commit](https://img.shields.io/github/last-commit/philfv9/spmf-server-webclient)](https://github.com/philfv9/spmf-server-webclient/commits/main)
 [![SPMF](https://img.shields.io/badge/SPMF-300%2B%20Algorithms-blue)](http://www.philippe-fournier-viger.com/spmf/)
 
-# The CLI and GUI Python Clients for the SPMF Server
+# SPMF Server Python Clients (CLI + GUI)
 
-This repository provides a **command-line client (CLI)** (`spmf-client.py`) and **graphical desktop client (GUI)** (`spmf-gui.py` written in Python for sending pattern mining and data mining jobs to the
-[SPMF-Server](https://github.com/philfv9/spmf-server), which provides a REST API wrapper for the popular [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
+This repository provides lightweight **command-line client (CLI)** (`spmf-client.py`) and **graphical desktop client (GUI)** (`spmf-gui.py` to interact with the
+[SPMF-Server](https://github.com/philfv9/spmf-server)  for submitting and executing **pattern mining and data mining tasks**.
+
 
 ---
 
@@ -31,14 +32,14 @@ This repository provides a **command-line client (CLI)** (`spmf-client.py`) and 
 
 ## Overview
 
-This repository provides two Python clients for
-[SPMF-Server](https://github.com/philfv9/spmf-server):
+This project provides **two complementary clients** for interacting with the [SPMF-Server](https://github.com/philfv9/spmf-server):
 
 <div align="center">
   <img src="/images/pythonclient.png" alt="SPMF server python clients" width="600">
 </div>
 
-Both clients handle the full job lifecycle automatically:
+Both clients handle the full job lifecycle of a job:
+
 <div align="center">
   <img src="/images/flow.png" alt="Job lifecycle" width="600">
 </div>
