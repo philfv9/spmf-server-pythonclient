@@ -248,7 +248,7 @@ The **Jobs** view displays a live list of all submitted jobs. It allows users to
   <img src="/images/jobs.png" alt="Jobs view" width="800">
 </div>
 
-Finally, the **Settings** allows to view the results of a completed job.
+Finally, the **Result** view allows to view the results of a completed job.
 
 <div align="center">
   <img src="/images/results.png" alt="Result view" width="800">
