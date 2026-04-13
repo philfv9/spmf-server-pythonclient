@@ -36,11 +36,13 @@ This repository provides two Python clients for
 [SPMF-Server](https://github.com/philfv9/spmf-server):
 
 <div align="center">
-  <img src="/images/pythonclient.png" alt="SPMF server" width="600">
+  <img src="/images/pythonclient.png" alt="SPMF server python clients" width="600">
 </div>
 
 Both clients handle the full job lifecycle automatically:
-submit → poll → fetch console → fetch result → cleanup.
+<div align="center">
+  <img src="/images/flow.png" alt="Job lifecycle" width="600">
+</div>
 
 To try these clients, you will first need to download and install the [SPMF-Server](https://github.com/philfv9/spmf-server).
 
