@@ -221,40 +221,8 @@ The `run` command manages the full job lifecycle end-to-end:
 
 ## GUI Client — spmf-gui.py
 
-A modern dark-themed graphical desktop application providing the same
-capabilities as the CLI — without the command line. The interface is organized around five views:
-
-The **Dashboard** provides an overview of the server’s current status, allowing users to monitor active jobs in real time and access system logs for troubleshooting and transparency.
-
-<div align="center">
-  <img src="/images/dashboard.png" alt="Dashboard view" width="800">
-</div>
-
-The **Algorithms** view enables users to explore the full list of available algorithms. It includes functionality for searching and filtering, as well as viewing detailed information about each algorithm’s parameters.
-
-<div align="center">
-  <img src="/images/algorithms.png" alt="Algorithms view" width="800">
-</div>
-
-The **Run Job** interface guides users through the process of executing a task. Users can select an algorithm, upload a dataset, configure the required parameters, and submit the job for execution.
-
-<div align="center">
-  <img src="/images/runjob.png" alt="Run job view" width="800">
-</div>
-
-The **Jobs** view displays a live list of all submitted jobs. It allows users to track the status of each job and delete jobs when necessary.
-
-<div align="center">
-  <img src="/images/jobs.png" alt="Jobs view" width="800">
-</div>
-
-Finally, the **Result** view allows to view the results of a completed job.
-
-<div align="center">
-  <img src="/images/results.png" alt="Result view" width="800">
-</div>
-
-### Launching the GUI
+The GUI client for the SPMF server is modern dark-themed graphical desktop application providing the same
+capabilities as the CLI — without the command line.
 
 To run the GUI client:
 
@@ -262,67 +230,41 @@ To run the GUI client:
 python spmf-gui.py
 ```
 
+The interface of the GUI client is organized around five views.
 
-### GUI Features
+The **Dashboard** provides an overview of the server’s current status,  server configuration, and a timestamped activity log showing every action taken during the session.
 
-| Feature | Description |
-|---|---|
-| **Auto-connect** | Attempts `localhost:8585` automatically on startup |
-| **Live status indicator** | Green/red dot in the header shows connection state |
-| **Algorithm search** | Filter 230+ algorithms by name or category in real time |
-| **Parameter guide** | Selecting an algorithm shows full parameter list with types and examples |
-| **One-click job submission** | Browse for input file, enter parameters, click Submit |
-| **Live progress** | Status and elapsed time update while the job runs |
-| **Side-by-side output** | Result output and console output in two panels simultaneously |
-| **Save outputs** | Save result or console to any file via a standard save dialog |
-| **Job manager** | View all server jobs, delete jobs, load any job's result |
-| **Colour-coded job status** | DONE = green, FAILED = red, RUNNING = amber, QUEUED = grey |
-| **Activity log** | Timestamped log of all actions on the Dashboard tab |
-| **About dialog** | Version, author, and GPLv3 license summary |
-| **Non-blocking UI** | All network calls run in background threads — UI never freezes |
+<div align="center">
+  <img src="/images/dashboard.png" alt="Dashboard view" width="800">
+</div>
 
----
+The **Algorithms** view enables users to explore the full list of available algorithms.  Click any algorithm to see its full description: category, author, input/output file types, and every parameter
+with its type and an example value. Click **"Use in Run Job"** to load the selected algorithm directly into the Run Job tab.
 
-### GUI Tabs
+<div align="center">
+  <img src="/images/algorithms.png" alt="Algorithms view" width="800">
+</div>
 
-#### Dashboard
-Server health statistics, full server configuration, and a timestamped
-activity log showing every action taken during the session.
+The **Run Job** interface guides users through the process of executing a task. Users can selelect algorithm from a searchable dropdown, browse for an input data file,  enter space-separated parameters  (the **Parameter Guide** panel on the right shows exactly what is expected). There are also options of using base64 encoding and keeping the job after completion, and adjusting the poll interval and timeout. Click **Submit Job** to submit a job, then the Result tab
+  opens automatically on completion.
 
-#### Algorithms
-Browse and search all 230+ SPMF algorithms. Click any algorithm to see its
-full description: category, author, input/output file types, and every parameter
-with its type and an example value. Click **"Use in Run Job"** to load the
-selected algorithm directly into the Run Job tab.
+<div align="center">
+  <img src="/images/runjob.png" alt="Run job view" width="800">
+</div>
 
-#### Run Job
-The main job submission panel.
-
-- Select algorithm from a searchable dropdown
-- Browse for an input data file
-- Enter space-separated parameters
-  (the **Parameter Guide** panel on the right shows exactly what is expected)
-- Options: base64-encode input, keep job after completion,
-  adjust poll interval and timeout
-- Click **Submit Job** — progress updates live, then the Result tab
-  opens automatically on completion
-
-#### Jobs
-Live table of all jobs in the server registry with colour-coded status.
-Double-click any row to load its result and console output.
+The **Jobs** view displays a live list of all submitted jobs. It allows users to track the status of each job and delete jobs when necessary. Double-click any row to load its result and console output.
 Delete individual jobs from this tab.
 
-#### Result
-Side-by-side view of the two outputs for any completed job:
+<div align="center">
+  <img src="/images/jobs.png" alt="Jobs view" width="800">
+</div>
 
-- **Left panel** — algorithm result output (the patterns, rules, or clusters found)
-- **Right panel** — console output (stdout/stderr from the SPMF Java process,
-  shown in green monospace text)
-
-Both panels support horizontal scrolling. Either panel can be saved to a file
+Finally, the **Result** view allows to view the results of a completed job.  The left panel displays he algorithm result output (the patterns, rules, or clusters found) while the right panel shows the console output (stdout/stderr from the SPMF Java process. Both panels support horizontal scrolling. Either panel can be saved to a file
 independently using the toolbar buttons.
 
----
+<div align="center">
+  <img src="/images/results.png" alt="Result view" width="800">
+</div>
 
 ## Algorithm Parameters
 
