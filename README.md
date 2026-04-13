@@ -301,5 +301,5 @@ The software is distributed under the [GNU General Public License v3.0](https://
 **Related links:**
 
 - SPMF Library source code: [https://github.com/philfv9/spmf](https://github.com/philfv9/spmf)
--spmf-server: [https://github.com/philfv9/spmf-server](https://github.com/philfv9/spmf-server)
+- spmf-server: [https://github.com/philfv9/spmf-server](https://github.com/philfv9/spmf-server)
 - Official SPMF website: [http://philippe-fournier-viger.com/spmf/](http://philippe-fournier-viger.com/spmf/)
