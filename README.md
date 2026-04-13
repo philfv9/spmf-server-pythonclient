@@ -256,23 +256,12 @@ Finally, the **Result** view allows to view the results of a completed job.
 
 ### Launching the GUI
 
-**Windows — recommended:**
-
-```
-RUNCLIENTGUI.BAT
-```
-
-**Direct launch:**
+To run the GUI client:
 
 ```bash
 python spmf-gui.py
 ```
 
-> **tkinter note:** If you installed Python from the **Microsoft Store**,
-> tkinter may be missing. Reinstall Python from
-> [python.org](https://www.python.org/downloads/) to get it.
-
----
 
 ### GUI Features
 
