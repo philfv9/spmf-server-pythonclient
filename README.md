@@ -14,13 +14,12 @@ This repository provides a **command-line client (CLI)** (`spmf-client.py`) and 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Installation](#installation)
-- [CLI Client — spmf-client.py](#cli-client--spmf-clientpy)
+- [The CLI Client — spmf-client.py](#cli-client--spmf-clientpy)
   - [Global Options](#global-options)
   - [Commands](#commands)
   - [CLI Examples](#cli-examples)
   - [What run does automatically](#what-run-does-automatically)
-- [GUI Client — spmf-gui.py](#gui-client--spmf-guipy)
+- [The GUI Client — spmf-gui.py](#gui-client--spmf-guipy)
   - [Launching the GUI](#launching-the-gui)
   - [GUI Features](#gui-features)
   - [GUI Tabs](#gui-tabs)
@@ -44,24 +43,20 @@ Both clients handle the full job lifecycle automatically:
   <img src="/images/flow.png" alt="Job lifecycle" width="600">
 </div>
 
-To try these clients, you will first need to download and install the [SPMF-Server](https://github.com/philfv9/spmf-server).
-
 The clients depends on: 
 
 - Python 3.8 or later
 - `requests` library
 - `tkinter` — for the GUI client only (included with the standard Python installer)
 
----
-
-## Installation
+To try these clients, you will first need to download and run the [SPMF-Server](https://github.com/philfv9/spmf-server). 
+Then, you can install the requests  library using PIP:
 
 ```bash
 pip install requests
 ```
 
-Clone or download this repository and run from the
-folder containing the scripts.
+Then, clone or download the scripts from this repository (`spmf-client.py` or `spmf-gui.py`).
 
 ```bash
 git clone https://github.com/philfv9/spmf-server-pythonclient.git
@@ -69,7 +64,7 @@ cdspmf-server-pythonclient
 pip install requests
 ```
 
----
+Details about the CLI and GUI are explained below.
 
 ## CLI Client — spmf-client.py
 
