@@ -4,7 +4,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/philfv9/spmf-server-webclient)](https://github.com/philfv9/spmf-server-webclient/commits/main)
 [![SPMF](https://img.shields.io/badge/SPMF-300%2B%20Algorithms-blue)](http://www.philippe-fournier-viger.com/spmf/)
 
-# Python Clients for the SPMF Server
+# The CLI and GUI Python Clients for the SPMF Server
 
 This repository provides a **command-line client (CLI)** and **graphical desktop client (GUI)** written in Python for sending pattern mining and data mining jobs to the
 [SPMF-Server](https://github.com/philfv9/spmf-server), which provides a REST API wrapper for the popular [SPMF](https://www.philippe-fournier-viger.com/spmf/) data-mining library.
