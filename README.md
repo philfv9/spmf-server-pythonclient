@@ -79,14 +79,14 @@ pip install requests
 
 | File | Description |
 |---|---|
-| `spmf-client.py` | Command-line client for everyspmf-server API endpoint |
+| `spmf-client.py` | Command-line client for every spmf-server API endpoint |
 | `spmf-gui.py` | Graphical desktop client built with Python + tkinter |
 
 ---
 
 ## CLI Client — spmf-client.py
 
-A single-file CLI that covers everyspmf-server endpoint.
+A single-file CLI that covers every spmf-server endpoint.
 
 ```
 python spmf-client.py [global options] <subcommand> [subcommand arguments]
