@@ -1,6 +1,7 @@
 [![License](https://img.shields.io/github/license/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/philfv9/spmf-server-pythonclient.svg)](https://github.com/philfv9/spmf-server-pythonclient/stargazers)
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-yellow)]()
+[![Last Commit](https://img.shields.io/github/last-commit/philfv9/spmf-server-webclient)](https://github.com/philfv9/spmf-server-webclient/commits/main)
 [![SPMF](https://img.shields.io/badge/SPMF-300%2B%20Algorithms-blue)](http://www.philippe-fournier-viger.com/spmf/)
 
 # Python Clients for the SPMF Server
