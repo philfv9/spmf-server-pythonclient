@@ -220,7 +220,7 @@ python spmf-gui.py
 
 The interface of the GUI client is organized around five views.
 
-The **Dashboard** provides an overview of the server’s current status,  server configuration, and a timestamped activity log showing every action taken during the session.
+The **Dashboard** provides an overview of the server’s current status,  server configuration, and a timestamped activity log showing every action taken during the session. It allows to connect and disconnect to the server.
 
 <div align="center">
   <img src="/images/dashboard.png" alt="Dashboard view" width="800">
