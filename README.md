@@ -301,6 +301,10 @@ This software and this webpage is copyright © Philippe Fournier-Viger and contr
 
 The software is distributed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). 
 
+## Acknowledgements & Dependencies
+
+SPMF Server Python Client is built on top of outstanding open-source projects and standard libraries (in particular, tkinter and [Requests](https://github.com/psf/requests), distributed under their own licenses). We gratefully acknowledge their authors and communities.
+
 **Related links:**
 
 - SPMF Library source code: [https://github.com/philfv9/spmf](https://github.com/philfv9/spmf)
