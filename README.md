@@ -303,7 +303,7 @@ The software is distributed under the [GNU General Public License v3.0](https://
 
 ## Acknowledgements & Dependencies
 
-SPMF Server Python Client is built on top of outstanding open-source projects and standard libraries (in particular, tkinter and [Requests](https://github.com/psf/requests), distributed under their own licenses). We gratefully acknowledge their authors and communities.
+The software in this repository is built on top of outstanding open-source projects and standard libraries (in particular, tkinter (BSD license) and [Requests](https://github.com/psf/requests) (Apache license)). We gratefully acknowledge their authors and communities.
 
 **Related links:**
 
