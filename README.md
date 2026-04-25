@@ -11,7 +11,7 @@
 </div>
 
 
-This repository provides lightweight **command-line client (CLI)** (`spmf-client.py`) and **graphical desktop client (GUI)** (`spmf-gui.py` to interact with the
+This repository provides lightweight **command-line client (CLI)** (`spmf-client.py`) and **graphical desktop client (GUI)** (`spmf-gui.py`) to interact with the
 [SPMF-Server](https://github.com/philfv9/spmf-server)  for submitting and executing **pattern mining and data mining tasks**.
 
 
