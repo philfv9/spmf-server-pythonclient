@@ -37,7 +37,7 @@ This repository provides lightweight **command-line client (CLI)** (`spmf-client
 
 ## Overview
 
-This project provides **two complementary clients** for interacting with the [SPMF-Server](https://github.com/philfv9/spmf-server):
+This project provides **two clients** for interacting with the [SPMF-Server](https://github.com/philfv9/spmf-server):
 
 <div align="center">
   <img src="/images/pythonclient.png" alt="SPMF server python clients" width="600">
