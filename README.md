@@ -303,6 +303,8 @@ The software is distributed under the [GNU General Public License v3.0](https://
 
 The software in this repository is built on top of outstanding open-source projects and standard libraries (in particular, tkinter (BSD license) and [Requests](https://github.com/psf/requests) (Apache license)). We gratefully acknowledge their authors and communities.
 
+For any derivative work of this software, keep the headers in the file and do not remove copyright and license information.
+
 ## Related links
 
 - SPMF Library source code: [https://github.com/philfv9/spmf](https://github.com/philfv9/spmf)
