@@ -7,7 +7,7 @@
 # SPMF Server Python Clients (CLI + GUI)
 
 <div align="center">
-  <img src="/images/python-logo.png" alt="SPMF server">
+  <img src="/images/python-logo.png" alt="SPMF server picture">
 </div>
 
 
